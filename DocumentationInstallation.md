@@ -1,6 +1,6 @@
 # [Remote Webcam Project](https://github.com/WarceuProject/RemoteWebcam)
 There are 2 methods to run it.
-First: you can install and run it manually, you only need to download the remote webcam source code, take it here (release link). 
+First: you can install and run it manually, you only need to download the remote webcam source code, take it here [Releases ](https://github.com/WarceuProject/RemoteWebcam/releases). 
 after that install some components as follows:
 - if running on local server you only need to install php package in your terminal for debian based `apt install php`
 - after that extract the source code that you have downloaded, open the Remote Webcam Project folder in the terminal run php server to run on the local server `php -S 127.0.0.1: (port) default is 8080`
