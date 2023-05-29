@@ -61,7 +61,7 @@ main(){
         ngrok http $port > /dev/null 2>&1 & 
         sleep 2
         link=$(curl -s localhost:4040/api/tunnels | jq -r .tunnels\[0\].public_url)
-        echo -e "$w☠$g Direct Link ➜ $link"
+        echo -e "$w[☠]$g Direct Link ➜ $link"
         checkfound
         
 
