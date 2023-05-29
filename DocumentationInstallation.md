@@ -17,4 +17,4 @@ as follows: `git clone https://github.com/WarceuProject/RemoteWebcam.git`
 
 `cd RemoteWebcam`
 and for run
-`bash setup.py`
+`bash setup.sh`
