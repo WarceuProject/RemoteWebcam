@@ -1,5 +1,10 @@
 #!/bin/bash
-
+######################################################################################################################################
+#   Tidak di anjurkan baginya yang menyalah gunakan program ini untuk tujuan ilegal seperti membuntuti atau mengintipnya seseorang.! #
+#====================================================================================================================================#
+#   Quotests: "Tugas seorang programmer adalah menuliskan kode dalam bahasa pemograman untuk menciptakan perangkat lunak komputer.   #
+#   Tetapi sangat tidak di anjurkan bagi nya untuk menuliskan rasa kepadanya  :)"                                                    #
+#_____________________________________________________________________________________________________________________________________
 main(){
     #../color
     r="\033[1;31m" 
