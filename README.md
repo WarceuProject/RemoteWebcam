@@ -9,4 +9,4 @@ This Remote Webcam Project is for remote camera capture<br>
 •site: https://warceuproject.dev<br>
 <br>
 
-<b>Visit Wiki:</b> [![Wiki](https://github.com/WarceuProject/RemoteWebcam/wiki)
+<b>Visit Wiki:</b> [Wiki](https://github.com/WarceuProject/RemoteWebcam/wiki)
