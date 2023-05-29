@@ -72,6 +72,7 @@ main(){
         # Use of root is required
         packages="php python3 snapd"
         ngorok="ngrok"
+        kira="jq"
         echo -e """$y
         +--------------------------------+
         |          [!]Warning[!]         |
@@ -86,6 +87,7 @@ main(){
         sudo apt update -y
         sudo apt install $packages
         sudo snap install $ngorok
+        sudo snap install $kira
 
         # If you have installed the package, it will immediately run the remote webcam.
         start
