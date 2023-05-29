@@ -16,5 +16,6 @@ Second method: you can simply clone the sourcecode to your computer with the Git
 as follows: `git clone https://github.com/WarceuProject/RemoteWebcam.git`
 
 `cd RemoteWebcam`
+`chmod 777 setup.sh`
 and for run
-`bash setup.sh`
+`bash setup.sh` or `./setup.sh`
