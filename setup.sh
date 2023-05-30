@@ -66,8 +66,10 @@ main(){
         printf "\e[1;92m[\e[0m+\e[1;92m] ➜ Starting ngrok server...\n"
         ngrok http $port > /dev/null 2>&1 & 
         sleep 2
+        printf "\e[1;92m[\e[0m+\e[1;92m] ➜ Creating Payload Link...\n"
+        sleep 5
         link=$(curl -s localhost:4040/api/tunnels | jq -r .tunnels\[0\].public_url)
-        echo -e "$w[ ☠ ]$g Direct Link ➜ $link"
+        echo -e "$w[ ☠ ]$g Payload Link ➜ $link"
         checkfound
         
 
