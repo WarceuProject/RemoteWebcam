@@ -78,7 +78,7 @@ main(){
     # install
     install(){
         # Use of root is required
-        packages="php python3 snapd"
+        packages="php python3 snapd curl wget"
         ngorok="ngrok"
         kira="jq"
         echo -e """$y
